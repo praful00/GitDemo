@@ -8,4 +8,4 @@ driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 driver.get_screenshot_as_file("E:\\protest.png")
 
 #option2
-driver.save_screenshot('pankajtest.png')
+driver.save_screenshot('deepjtest.png')
