@@ -11,7 +11,7 @@ driver.implicitly_wait(4)
 driver.get("https://rahulshettyacademy.com/angularpractice/")
 driver.find_element(By.LINK_TEXT, "Shop").click()
 products = driver.find_elements(By.XPATH, "//div[@class='card h-100']")
-time.sleep(2)
+time.sleep(4)
 for product in products:
     productname = product.find_element(By.XPATH, "div/h4/a").text
     if productname == "Blackberry":
