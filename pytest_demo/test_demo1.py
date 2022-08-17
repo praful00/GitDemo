@@ -26,8 +26,10 @@ class Testpraful(logtest):
     def test_test2(self):
         print("Hello Shubham")
 
+
     def test_test4(self):
         print("Hello Ankush")
+
 
 
 
